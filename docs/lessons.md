@@ -1,6 +1,6 @@
 ---
-title: 'Creative Coding with P5.js'
-description: 'Example using Prism / Markdown with Next.js including switching syntax highlighting themes.'
+title: 'Prism with Next.js'
+description: 'Curriculum for Creative Coding with P5.js, by Eli Pleaner'
 ---
 
 # Using Prism with Next.js

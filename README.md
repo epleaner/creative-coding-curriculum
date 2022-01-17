@@ -1,6 +1,6 @@
 # Using Prism with Next.js
 
-Example using Prism / Markdown with Next.js including switching syntax highlighting themes.
+Curriculum for Creative Coding with P5.js, by Eli Pleaner
 
 - [Next.js](https://nextjs.org/)
 - [Prism](https://prismjs.com/)

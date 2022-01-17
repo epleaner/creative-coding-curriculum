@@ -5,8 +5,9 @@ import { useState } from 'react';
 export default function Layout({ children, meta: pageMeta }) {
   const [theme, setTheme] = useState('okaidia');
   const meta = {
-    title: 'Creative Coding with P5.js',
-    description: 'Curriculum for Creative Coding with P5.js by Eli Pleaner',
+    title: 'Prism with Next.js',
+    description: 'Curriculum for Creative Coding with P5.js, by Eli Pleaner',
+
     ...pageMeta
   };
 
