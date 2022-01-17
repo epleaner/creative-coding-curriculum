@@ -1,5 +1,5 @@
 import Layout from '~/components/Layout';
-import { getAllDocs, getDocBySlug } from '~/lib/docs';
+import { getDocBySlug } from '~/lib/docs';
 import markdownToHtml from '~/lib/markdown';
 
 export default function Doc({ meta, content }) {
@@ -15,20 +15,5 @@ export async function getStaticProps() {
       ...doc,
       content
     }
-  };
-}
-
-export async function getStaticPaths() {
-  const docs = getAllDocs();
-
-  return {
-    paths: docs.map((doc) => {
-      return {
-        params: {
-          slug: doc.slug
-        }
-      };
-    }),
-    fallback: 'unstable_blocking'
   };
 }
