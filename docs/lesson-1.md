@@ -1,13 +1,19 @@
 ---
-title: 'Prism with Next.js'
-description: 'Curriculum for Creative Coding with P5.js, by Eli Pleaner'
+title: 'Lesson 1'
+description: 'What is P5.js?'
 ---
 
-# Using Prism with Next.js
+# P5.js
 
-[**Prism**](https://prismjs.com/) is a popular syntax highlighter commonly used with Markdown.
-This example shows how to use Prism with [**Next.js**](https://nextjs.org/). Use the theme dropdown
-in the header to switch syntax highlighting themes.
+[**P5.js**](https://p5js.org/) is "a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!"
+
+P5.js is basically the code version of everything a painter needs to paint: the canvas, all the paints and paintbrushes you could ever imagine, the techniques for painting different shapes and textures, et cetera.
+
+But, what's so cool is that P5.js is not only about painting. You can bring in sounds too! And so much more. We'll learn more about this in future lessons.
+
+For now, let's take a look at the [**P5.js editor**](https://editor.p5js.org/). This is where we'll be doing most of our coding to begin.
+
+![NextJS logo](/test.jpg 'NextJS Logo')
 
 Next.js uses `getStaticPaths`/`getStaticProps` to generate [static pages](https://nextjs.org/docs/basic-features/data-fetching). These functions are _not_ bundled client-side, so you can **write server-side code directly**. For example, you can read Markdown files from the filesystem (`fs`) – including parsing front matter with [gray-matter](https://github.com/jonschlinkert/gray-matter). For example, let's assume you have a Markdown file located at `docs/my-post.js`.
 
