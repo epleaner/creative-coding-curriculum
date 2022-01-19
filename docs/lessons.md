@@ -21,6 +21,10 @@ Creative coding changes how we look at the world we are a part of. We begin to a
 
 [**Sandstone**](https://epthree.vercel.app/2d/sandstone)
 
+[**Anything in Existence**](https://www.youtube.com/watch?v=eVQvMEXoBow)
+
+[**Beyond the Blooms**](https://www.youtube.com/watch?v=I4b8xpFQI_o)
+
 ## P5.js and web development
 
 We will primarily be using [**P5.js**](https://p5js.org/) for this course, which is a creative coding library written in Javascript. Javascript is one of the main languages used in modern web development, and we will be learning how to write Javascript through creative projects. By working with Javascript, we can easily put our creative projects onto our own websites and share them with others, and know that our projects will work the same on many different computers, tablets, and phones.
